@@ -1,0 +1,12 @@
+name: bloc_riverpod
+description: BlocProvider implementation with riverpod as alternative to provider.
+version: 0.0.1
+homepage: https://github.com/Eronildo/bloc_riverpod
+
+environment:
+  sdk: ">=2.13.4 <3.0.0"
+
+dependencies:
+  bloc: ^7.0.0
+  meta: ^1.3.0
+  riverpod: ^0.14.0+3
