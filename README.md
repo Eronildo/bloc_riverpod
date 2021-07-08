@@ -1,4 +1,4 @@
-# Bloc Riverpod - BlocProvider
+# BlocProvider - Bloc Riverpod
 
 It's similar to `ChangeNotifierProvider` but with bloc instead of ChangeNotifier.
 
