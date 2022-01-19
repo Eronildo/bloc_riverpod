@@ -1,5 +1,5 @@
-import 'package:riverpod/riverpod.dart';
 import 'package:bloc_riverpod/bloc_riverpod.dart';
+import 'package:riverpod/riverpod.dart';
 
 class CounterCubit extends Cubit<int> {
   CounterCubit(int state) : super(state);

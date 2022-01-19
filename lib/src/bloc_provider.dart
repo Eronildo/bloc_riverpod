@@ -1,16 +1,15 @@
 import 'dart:async';
 
-import 'package:meta/meta.dart';
 import 'package:bloc/bloc.dart';
+import 'package:meta/meta.dart';
 import 'package:riverpod/riverpod.dart';
-
 // ignore: implementation_imports
 import 'package:riverpod/src/framework.dart';
 
 import 'builders.dart';
 
-part 'bloc_provider/base.dart';
 part 'bloc_provider/auto_dispose.dart';
+part 'bloc_provider/base.dart';
 
 /// {@template bloc_riverpod.blocprovider}
 /// Creates a [Bloc] and subscribes to it.
